@@ -1,7 +1,7 @@
-package com.example.demo.mapper;
+package com.example.web1.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.demo.model.Book;
+import com.example.web1.model.Book;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

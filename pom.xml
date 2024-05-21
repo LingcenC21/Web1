@@ -9,7 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>com.example.demo.model.Book Management System</name>
+    <name>com.example.web1.model.Book Management System</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -25,6 +25,16 @@
     </properties>
 
     <dependencies>
+        <!-- Spring Boot Starter Cache -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+        <!-- Spring Boot Starter Data Redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
         <!-- Spring Boot Starter Web, includes Spring MVC, Tomcat -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
